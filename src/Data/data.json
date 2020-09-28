@@ -1,0 +1,27 @@
+{
+    "firstName":
+        {
+            "type":"string",
+            "required":true
+        },
+        "lastName":
+        {
+            "type":"string",
+            "required":true
+        },
+        "age":
+        {
+            "type":"number",
+            "required":true
+        },
+    "address":{
+        "type":"object",
+        "schema":{
+            "addressLine1":{"type":"string","required":true},
+            "addressLine2":{"type":"string","required":true},
+            "city":{"type":"string","required":true},
+            "state":{"type":"string","required":true},
+            "pincode":{"type":"number","required":true}
+        }
+    }
+}
